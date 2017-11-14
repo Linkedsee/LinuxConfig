@@ -5,13 +5,13 @@ Include git,shell
 
 ### Documentation
 
+1. \.git-completion使用方法  
+  ```修改主目录下的 .bashrc 文件  
+  vi ~/.bashrc  
+  在文件的最后一行，加上如下代码：  
+  source ~/.git-completion.bash  
+  
+  最后source ~/.bashrc
+  ```
+
 ### Contributing
-
-> If you'd like to contribute, simply fork `the repository`_, commit your
-changes, run the tests (`tox`) and send a pull request.
-Make sure you add yourself to CONTRIBUTORS_.
-
-If you are interested in maintaining the project please contact.
-
-_`the repository`: https://github.com/Linkedsee/LinuxConfig  
-_CONTRIBUTORS: https://github.com/Linkedsee/LinuxConfig/master/CONTRIBUTORS
