@@ -1,0 +1,92 @@
+{
+    "workbench.startupEditor": "welcomePage",
+    "window.zoomLevel": 0,
+    "python.jediEnabled": false,
+    "files.autoSave": "onFocusChange",
+    "workbench.sideBar.location": "left",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.idea": true,
+        "**/*.pyc": true,
+        "**/*.vscode": true,
+        "**/node_modules": true,
+        "~": true
+    },
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+    "extensions.autoUpdate": true,
+    "extensions.autoCheckUpdates": false,
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style", "{based_on_style: chromium, indent_width: 4}"
+     ],
+    // "python.formatting.provider": "autopep8",
+    // python 虚拟环境
+    "python.venvPath": "~/Project/.virtualenvs,~/.pyenv",
+    "python.venvFolders": [
+        "envs",
+        ".pyenv",
+        ".direnv",
+        "./Project/.virtualenvs"
+    ],
+　　"python.autoComplete.extraPaths": [
+    　　　　"~/.pyenv/versions/aiops_py3/lib/python3.7/site-packages",
+    　　],
+    "workbench.iconTheme": "material-icon-theme",
+    "http.proxy": "http://127.0.0.1:1087",
+    "http.proxyStrictSSL": false,
+    // Class '' has no 'objects' member Error
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": [
+        "--generate-members",
+    ],
+    // flake8 setting
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+    ],
+    "editor.fontFamily": "Cascadia, Monaco,Menlo, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "material-icon-theme.folders.color": "#42a5f5",
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#2979FF",
+        "list.activeSelectionForeground": "#2979FF",
+        "list.inactiveSelectionForeground": "#2979FF",
+        "list.highlightForeground": "#2979FF",
+        "scrollbarSlider.activeBackground": "#2979FF50",
+        "editorSuggestWidget.highlightForeground": "#2979FF",
+        "textLink.foreground": "#2979FF",
+        "progressBar.background": "#2979FF",
+        "pickerGroup.foreground": "#2979FF",
+        "tab.activeBorder": "#2979FF",
+        "notificationLink.foreground": "#2979FF",
+        "editorWidget.resizeBorder": "#2979FF",
+        "editorWidget.border": "#2979FF",
+        "settings.modifiedItemIndicator": "#2979FF",
+        "settings.headerForeground": "#2979FF",
+        "panelTitle.activeBorder": "#2979FF",
+        "breadcrumb.activeSelectionForeground": "#2979FF",
+        "menu.selectionForeground": "#2979FF",
+        "menubar.selectionForeground": "#2979FF"
+    },
+    "materialTheme.accent": "Blue",
+    "material-icon-theme.folders.theme": "specific",
+    "python.autoComplete.addBrackets": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8CategorySeverity.W": "Error",
+    "sync.gist": "af20b71f5c7cae4fbb222b6ea5677c3a",
+    "sync.forceUpload": true,
+    "[yaml]": {
+        
+    },
+    "workbench.colorTheme": "Monokai Pro",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "breadcrumbs.enabled": false,
+    "workbench.tree.indent": 20,
+    "workbench.view.alwaysShowHeaderActions": true,
+}
